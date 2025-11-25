@@ -24,16 +24,22 @@
         tools:layout_editor_absoluteY="1dp">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnObtener"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Obtener" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnONOFF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ON/OFF" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
